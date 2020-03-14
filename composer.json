@@ -1,0 +1,23 @@
+{
+	"name": "wpnonces/nonces",
+    "authors": [
+        {
+            "name": "Bilal Dif",
+            "email": "bilal89dif@gmail.com"
+        }
+    ],
+	"require-dev": {
+        "phpunit/phpunit": "^5.5",
+        "brain/monkey": "~2.0.0",
+    },
+	"autoload": {
+		"psr-4": {
+			"WpOriented\\WpNonnes\\": "src/classes"
+		}
+	},
+	"autoload-dev": {
+        "psr-4": {
+            "WpOriented\\Test\\": "tests/"
+        }
+    }
+}
